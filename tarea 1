@@ -1,0 +1,78 @@
+ESTRUCTURA LOGICA DEL DISCO DURO
+Un disco duro es un dispositivo utilizado por el ordenador para almacenar datos durante un tiempo largo. Los discos duros pertenecen a la llamada memoria secundaria, aunque su apariencia externa sea de una caja rectangular en el interior hay varios elementos como los discos metálicos que giran a gran velocidad, cabezas de lectura/escritura, el motor, etc. Los discos duros están compuestos por una estructura física y lógica, respecto a la estructura física se refiere a como esta compuesto interiormente un disco duro, es decir, las piezas o componentes que la conforman como los platos, las cabezas de lectura/escritura, el impulsor de cabezal, las pistas, los sectores, etc. los cuales se ve su relación, en cuanto a número, de cada uno de estos componentes o piezas en la geometría de un disco duro. Con respecto a la estructura lógica esta formada por el sector de arranque, la FAT (Tabla de asignación de ficheros), el directorio raíz y la zona de datos para archivos y subdirectorios
+
+
+Discos duros SATA
+Son los discos utilizados en la actualidad. Estos discos no van conectados a zócalos IDE, por lo que no tienen las limitaciones inherentes a dicho sistema (es decir, dos dispositivos por conector, configurados como Master y Slave o como Cable Select), sino que van conectados directamente a un puerto SATA (Serial ATA), cada disco de forma independiente, determinándose el disco de inicio del sistema en la propia BIOS. El número de conectores SATA en una placa base depende tan solo de la capacidad del chipset que se monte, siendo lo más habitual que cuenten con 4 o 6 puertos SATA, aunque existen placas con un número mayor.
+SATA no utiliza las fajas de 80 hilos, sino cables planos de 7 hilos, mucho más estrechos, que permiten entre otras cosas una mejor refrigeración del sistema y una mayor longitud en los cables. En cuanto a las tomas de alimentación también son diferentes, aunque con los mismos voltajes que los empleados en los discos IDE, si bien están en un orden diferente. Hay algunos discos SATA que llevan ambos tipos de tomas de alimentación como por ejemplo algunos modelos de Western Digital o de Samsung, aunque no es lo más habitual.
+En cuanto a los tipos de SATA existentes, son los siguientes:
+SATA o SATA 1, con una velocidad de transmisiónde 150MB/s, llamado también SATA 1.5Gb. Este tipo ya prácticamente no se utiliza, a pesar de su reciente aparición.
+SATA 2, con una velocidad de transmisiónde 300MB/s, conocido también como SATA 3Gb. Es el tipo más utilizado, y suelen tener un jumper para poder utilizarlos como SATA 1.
+El tipo SATA 6Gb, con una velocidad de transmisión de 600MBs .
+Discos Duros SAS
+El disco duro SAS es un dispositivo electromecánico que se encarga de almacenar y leer grandes volúmenes de información a altas velocidades por medio de pequeños electroimanes  (también llamadas cabezas de lectura y escritura), sobre un disco recubierto de limadura magnética. Los discos vienen montados sobre un eje que gira a altas velocidades. El interior del dispositivo está totalmente libre de aire y  de polvo, para evitar choques entre partículas y por ende, pérdida de datos, el disco permanece girando todo el tiempo que se encuentra encendido. Será el sucesor del estándar dediscos duros con interfaz paralela SCSI.
+RPM SAS: Significa “Revolutions per Minute” ó vueltas por minuto. Este valor determina la velocidad a la que los discos internos giran cada minuto. Su unidad de medida es: revoluciones por minuto (RPM). Este dato puede ser 7,200 RPM, 10,000 RPM hasta 15,000 RPM.
+Capacidades de almacenamiento SAS: Es el total de Bytes ó símbolos que es capaz de almacenar un disco duro. Su unidad de medida es el Byte, pero actualmente se utilizan medidas como el GigaByte (GB) y el TeraByte (TB). Para discos duros SAS este dato puede estar entre 72 GigaBytes (GB) hasta 2 TeraBytes (TB).
+Velocidad de transferencia: Indica la velocidad de transferencia de datos máxima, expresada en Gb/s (Gigabits/segundo). Un disco duro SAS tiene dentro de sus características lo siguiente: Marca HP®, 600 GB, SFF 2.5 Inch,  Hot Plug*, 6G*, SAS, 10K RPM.     * Este dato indica la velocidad de transferencia de datos, en este caso 6 Gigabits/segundo.
+Beneficios de usar  discos duros SAS
+Al fusionar el rendimiento y la fiabilidad de la interfaz serie con los entornos SCSI existentes, SAS aporta mayor libertad a las soluciones de almacenamiento sin perder la base tradicional sobre la que se construyó el almacenamiento para empresas, otorgando las siguientes características:
+Acelera el rendimiento del almacenamiento en comparación con la tecnología SCSI paralela
+Garantiza la integridad de los datos
+Protege las inversiones en TI
+Habilita la flexibilidad en el diseño de sistemas con unidades de disco SATA en un compartimento sencillo
+Discos duros SSD
+Los tiempos de acceso a los Discos Duro SSD son hasta diez veces más rápidos que los discos duros convencionales, tienen menos desgaste debido a que los discos SSD no tienen partes mecánicas, son sólidos. Los discos duros SSD también desprenden menos calor al alcanzar menos temperatura y no hacen absolutamente ningún ruido.
+Cuando un servidor lleva discos SSD tiene un acceso mucho más rápido a los datos, por lo que si el servidor es web, los tiempos de respuesta mejoraran considerablemente en las consultas a la base de datos que no estén cargadas en la memoria RAM.
+El siguiente video expresa de manera gráfica la comparación entre estos dos dispositivos de almacenamiento, en este caso, comparan las memorias SSD de Samsung.
+
+
+
+Tipos de procesadores Intel y sus características
+
+
+Los diferentes tipos de procesadores Intel junto con sus características principales:
+Celeron
+Este tipo de procesador está diseñado especialmente para ordenadores de escritorio. Hay que tener en cuenta que es uno de los tipos de procesadores más básicos y de bajo coste de Intel.
+Los procesadores Celeron tienen menos memoria caché (L3 de 2 MB) que otros de gama media o alta por lo que el rendimiento será sensiblemente inferior. Cuentan con 1 o 2 núcleos dependiendo del modelo.
+Hay que tener en cuenta que al ser un procesador básico, no está capacitado para funcional al 100% en el caso de hacer uso de aplicaciones avanzadas o videojuegos.
+Pentium
+El procesador Pentium es uno de los más conocidos de Intel y con el paso del tiempo ha ido evolucionando dejando tras de sí una amplia generación de procesadores.
+En la actualidad los procesadores Pentium pertenecen a la gama media y se encuentran disponibles en versión dual core (doble núcleo), ofreciendo 3MB de caché L3 con gráficas integradas.
+Suponen un paso importante respecto a los procesadores Celeron, y tienen un rendimiento suficiente para usuarios que no necesitan hacer un uso intensivo del ordenador.
+Core i3
+El procesador Intel Core i3 es la línea más baja de los procesadores  Core a pesar de pertenecer a los procesadores de nueva generación. 
+Cuenta con doble núcleo y entre 3 y 4 MB de memoria caché. Ofrecen un alto rendimiento en la reproducción de videos en alta definición así como en la  reproducción de gráficos en 3D.
+El procesador i3 está dotado de tecnología hyperthread, que les permite funcionar con 4 hilos de procesamiento en paralelo. Esto posibilita que pueda hacer funcional las aplicaciones de forma fluida.
+Es un procesador muy adecuado para llevar a cabo tareas cotidianas de forma muy aceptable. Si utilizas tu equipo para videojuegos o aplicaciones profesionales, probablemente se quedará algo limitado.
+Core i5
+El procesador Intel Core i5 es una opción más avanzada respecto al Intel  Core i3. Ofrece un alto rendimiento con velocidades que se sitúan entre los 1,06 a los 3,46 HGz. 
+En las versiones de escritorio, cuenta con 4 núcleos aunque no tiene la funcionalidad de hyperthread, excepto en los modelos que tienen dos núcleos. Cuenta con una memoria caché de entre 3 MB y 6 MB.
+Por otro lado cabe destacar la presencia de Turbo Boost, una funcionalidad que permite que un procesador funcione a mayor velocidad cuando se requiera.
+El procesador i5 cubre a la perfección cualquier necesidad de los usuarios, incluso para aquellas aplicaciones y programas más avanzados.
+Core i7
+El procesador Intel Core i7 pertenece a la gama más alta de Intel y esto se puede comprobar en el rendimiento que ofrece a los usuarios. 
+Ha sido diseñado para albergar entre 2, 4 y hasta 6 núcleos y cada uno de los chips cuenta con hasta 12 hilos de procesamiento. El rango de velocidad de procesamiento es de 1.6 a 3.46 GHz, alcanzando su máxima potencia gracias a Turbo Boost.
+Por otro lado, el procesador Intel Core i7 cuenta con tres memorias caché, lo cual lo convierte en uno de los procesadores más completos del mercado. La opción perfecta para usuarios que requieren de especificaciones más avanzadas.
+
+Tipos de procesadores AMD y sus características
+
+Los diferentes tipos de procesadores AMD junto con sus características principales:
+Athlon 
+La línea Athlon 64 fue la primera serie de CPUs de 64 bits que lanzó AMD.
+Algunas versiones van desde los dos núcleos hasta los cuatro núcleos. A pesar de ser muy básicos ofrecen un buen desempeño en tareas que no requieran de altas especificaciones.
+APUs
+Vamos un paso más allá y nos encontramos con el procesador APUs.  Dentro del mismo encapsulado, integran el procesador y y el GPU o coprocesador para los gráficos. 
+Puedes encontrar este procesador de dos a cuatro núcleos y ofrecen núcleos gráficos con un excelente rendimiento. No es el procesador más avanzado de AMD, pero es una buena opción y económica para usuarios que no necesitan un alto rendimiento.
+FX
+Dentro de la gama AMD FX encontramos los modelos FX 4300, 6300 y 8300. Este procesador cuenta con hasta ocho núcleos en sus modelos más avanzados que permiten hacer múltiples tareas a la vez.
+Cada uno de los procesadores que componen esta gama son:
+FX 4300
+El procesador FX 4300 cuenta con cuatro núcleos  siendo el más bajo de esta gama de procesadores AMD. Su bajo coste lo colocan en uno de los  puestos favoritos para asumir varias tareas con un notable rendimiento. Tiene una frecuencia base de 3,8 Ghz.
+FX 6300 
+El procesador FX 6300 cuenta con seis núcleos, lo cual hace que sea uno de los procesadores más potentes de AMD. Es capaz de llevar a cabo una gran carga de trabajo y correr algunos de los últimos videojuegos, streaming… Tiene una frecuencia de 3,8/4,1 Ghz.
+FX 8300
+El procesador FX 8300 es el más avanzado con sus ocho núcl eos que  permite poder jugar a juegos de nueva generación sin problema. Su  frecuencia de 4,6 Ghz es más que suficiente para llevar a cabo las tarea s más pesadas sin esfuerzo.
+RYZEN
+Una de las últimas apuestas de AMD es su procesador RYZEN, siendo uno de los más avanzados y potentes del mercado. La gama RYZEN está formada por chips de cuatro, seis y ocho núcleos. Así, el más potente de ellos puede alcanzar una velocidad de reloj de 3.6 GHz y puede llegar hasta 4.0 GHz.
+ThreadRipper
+El procesador Threadripper es el de gama más alta. Están basados en la   arquitectura ZEN y suman hasta 16 núcleos y 32 hilos. Además cuenta con una caché de 40 MB lo cual le permite trabajar con un extraordinario volumen de datos. Seguramente, es la mejor opción para los usuarios más exigentes, que  necesitan cargar programas y aplicaciones de mucho
